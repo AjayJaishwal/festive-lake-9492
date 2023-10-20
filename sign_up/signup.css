@@ -8,6 +8,10 @@ body {
     background-color: #F3F3F3;
 }
 
+.loginParentContainer {
+    display: inline-block;
+}
+
 .loginContainer {
     width: 350px;
     background-color: white;
@@ -28,6 +32,18 @@ body {
 
 .emailText {
     width: 300px;
-    margin-bottom: 100px;
     height: 30px;
+}
+
+.crossImage {
+    width: 25px;
+    height: 25px;
+}
+
+.emailContainer {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
 }
