@@ -6,10 +6,13 @@ body {
     align-items: center;
     margin-top: 100px;
     background-color: #F3F3F3;
+    
+    
 }
 
 .loginParentContainer {
     display: inline-block;
+    height: 100px;
 }
 
 .loginContainer {
@@ -19,6 +22,10 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 50 px;
+    
 }
 
 .proceedbutton {
