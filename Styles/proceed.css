@@ -1,0 +1,117 @@
+#navbar {
+    margin-left: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+#navbar i {
+    color: #e80071;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#header{
+  padding-left: 15%;
+  padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+#header h1{
+    font-size: 40px;
+   
+}
+#header h2{
+    font-size: 15px;
+    color: gray;
+}
+#header h3{
+    font-size: 25px;
+    
+}
+#addressBar{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+    
+}
+#addaddress button{
+   height: 100%;;
+   width: 100%;
+   background-color: transparent;
+   border: transparent;
+   color: #e80071;
+   font-size: 20px;
+   cursor: pointer;
+}
+#addaddress{
+    width: 300px;
+    height:150px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+#address{
+    width: 300px;
+    height:150px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+#addressBar h1{
+    font-size: 15px;
+    color: gray;
+}
+#deliverbutton{
+    display:flex ;
+    flex-direction: row;
+    gap: 20px;
+}
+#edit{
+    border-radius: 5px;
+    color: gray;
+    border-color: gray;
+    background-color: transparent;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+#deliver{
+    background-color: #e80071;
+    color: white;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: transparent;
+    cursor: pointer;
+}
+#details{
+    width: 300px;
+    border-radius: 10px;
+}
+#details div{
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+#info{
+    border: transparent;
+
+}
