@@ -1,0 +1,609 @@
+body{
+background-color: #f3f3f3;
+}
+#main-div{
+    /* border:2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    width:80%;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    margin-top:20px;
+    border-radius: 10px;
+}
+#img-div{
+  
+    width:40%;
+    height: 400px;
+}
+
+#ima{
+    padding: 0px;
+    width:100%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    border-radius: 10px 0px 0px 10px;
+      /* border-right:2px solid black; */
+}
+#pd{
+    display: flex;
+    gap: 10px;;;
+}
+#text{
+    font-weight:bolder;
+font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+font-size:22px;
+}
+
+#pp_btn2{
+height:40px;
+width:150px;
+outline: none;
+border:1px solid #fc2779;
+background-color: #fc2779;
+color:white;
+font-weight:bolder;
+font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+margin-bottom:10px;
+cursor: pointer;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+#pp_btn2:hover{
+    background-color: white;
+    border: 2px solid #FC2779;
+    color: #fc2779;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+
+#address {
+  font-weight:bold;
+font-family: "Source Sans Pro", Roboto, Arial, sans-serif;  
+}
+#check{
+    cursor: pointer;
+  font-weight:bolder;
+font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+background-color:green;
+color:white;
+outline:none;
+border:1px solid green;
+width: 100px; 
+height:30px; 
+border-radius: 4px;
+}
+#pincode{
+    height:30px;
+    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+    font-weight: bolder;
+}
+#price{
+    font-weight: bolder;
+    color:#fc2779;
+    font-size: 22px;
+    margin-bottom:0px;
+}
+#discount{
+    font-weight: bolder;
+    color:red;
+}
+.tax{
+    font-weight: bolder;
+     font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+     font-size:12px;
+}
+#rating{
+     font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+    font-weight: bolder;
+    color:black;
+}
+#text-div{
+  
+    margin-left:10px;
+}
+#navbar-sticky {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 50;
+ 
+}
+#nav-top {
+    width: 100%;
+    height:40px;
+    display:flex;
+    background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/topstrips18.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+#nav-top-elements {
+    display: flex;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+#cart-img{
+
+  margin: auto;
+  color:black;
+  margin-left: 40px;
+  width:50px;
+  margin-top: 10px;
+}
+#cart_quantity{
+  background-color: #fc2779;
+  border-radius: 100%;
+  text-align: center;
+  width:25px;
+ 
+}
+#OFFERS {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/095/475/original/pink-camo-vector.jpg);
+    background-size: contain;
+    color: white;
+    width:100px;
+    height:40px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 0.5rem;
+  
+}
+
+a {
+text-decoration: none;
+
+}
+.left-message {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    border: 0px !important;
+    margin-left: 6%;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 300px;
+}
+.nav-list li {
+  margin: 0px 7px;
+  font-family: 'Source Sans Pro';
+list-style-type: none;
+
+}
+.vertical-line {
+  font-size: 24px;
+  vertical-align: middle;
+}
+.nav-list li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none; 
+}
+.first-icon:hover {
+  color: #fc2779;
+}
+
+.nav-list li a i {
+  font-size: 22px;
+  color: black;
+  outline: none;
+  border: none;
+  vertical-align: middle;
+}
+.nav-list li a i:hover {
+  color: #fc2779;
+}
+
+#logo-img {
+   width: 80px;
+   height: 30px;
+     margin-left: 35px;
+     margin-top:15px;
+}
+
+#navbar-middle{
+    display:flex;
+     height: 70px;
+    width:100%;
+     background-color: white !important;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+   
+ 
+}
+.nav-middle-list{
+      display:flex;
+      text-decoration: none;
+      list-style-type: none;
+    align-items: center;
+ background-color: white !important;
+ /* justify-content: space-between; */
+
+}
+.nav-middle-list li{
+ justify-content: space-around;
+ margin-left: 20px;
+ font-size: 13px;
+    font-weight:bold;
+    color: #03021a;
+   
+}
+
+.nav-middle-list li:hover{
+    color: #FC2779;
+}
+
+#search {
+    width: 250px;
+    height:40px;
+    border: none;
+    background: #f4f4f4;
+   font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0px;
+    border-radius: 2%;
+    border: 1px solid rgb(231, 229, 229);
+    margin-left:100px;
+}
+.nav-middle-side {
+  display:flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left:50px;
+   
+   margin: 10px;
+   width: 125px;
+   border-radius: 10px;
+    
+}
+
+.nav-middle-side:hover{
+    background-color: #FC2779;
+    color: #fff;
+    
+}
+
+#navbar-bottom{
+  display:flex;
+width:100%;
+height:50px;
+ box-shadow: 0px 10px 10px -15px #111;    
+padding: 0 7px!important;
+background-color: #fff;
+margin-top:110px;
+}
+.navbar-bottom-list{
+  display:flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(3, 2, 26, 0.6);
+    font-family: 'SourceSansPro-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+        line-height: 47px;
+        border-bottom: 3px solid transparent;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    margin-left: 20px;
+        
+}
+.navbar-bottom-list li {
+ margin-left:40px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+#foo_one{
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+            /* justify-content: space-evenly; */
+            background-color:#3F414D;
+            width: 100%;
+            padding: 2.5rem 0;
+            margin-top:50px;
+        }
+        /* ============================================== */
+        /* Footer Get Special Discount Section CSS */
+        /* ============================================== */
+
+        #foo_one div#foo_email{
+            /* border:1px solid green; */
+            color: white;
+            padding:0 1.87rem;
+            line-height: 1.25rem;
+            font-size: 0.87rem;
+            /*  */
+            margin: 0 4rem 0 8rem;
+        }
+
+        #foo_one #foo_email p{
+            line-height: 2rem;
+            font-weight: 500;
+        }
+
+        #foo_email p i{
+            font-size: 1.5rem;
+        }
+
+        i{
+            margin-right: 0.5rem;
+            font-size: 1.5rem;
+            vertical-align: middle;
+        }
+
+        #foo_email form{
+            /* border: 1px solid linen; */
+            height: 3rem;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        #foo_email form input[type="email"]{
+            background-color: #3F414D;
+            outline: none;
+            border: 1px solid #3F414D;
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+            width: 13.5rem;
+            height: 80%;
+            border-bottom: 1.5px solid white;
+            caret-color: white;
+            color: white;
+        }
+
+        #foo_email form input[type="email"]::placeholder{
+            color: white;
+        }
+
+        #foo_email form button{
+            color: white;
+            background-color: #3F414D;
+            outline: none;
+            border: 1px solid white;
+            border-radius: 0.3rem;
+            height: 90%;
+            padding: 0 1rem;
+            font-size: 0.9rem;
+        }
+
+        /* ============================================== */
+        /* Footer Experience Nykaa Mobile App Section CSS */
+        /* ============================================== */
+
+        #foo_experience{
+            /* border: 1px solid white; */
+            font-size:0.87rem;
+            color: white;
+            padding: 0 1.87rem;
+            line-height: 1.25rem;
+            font-size: 0.87rem;
+            /*  */
+            margin: 0 4rem 0 0;
+        }
+
+        #foo_experience div#icon_wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 2rem;
+
+        }
+
+        #foo_experience div#svg_wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 3rem;
+        }
+
+        #icon_wrapper p{
+            font-weight: 500;
+            vertical-align: middle;
+        }
+        #foot--mobile{
+            vertical-align: middle;
+        
+        }
+        #foot--expe{
+            vertical-align: middle;
+        }
+
+        #foo_experience div#svg_wrapper a{
+            margin-top: 1rem;
+        }
+
+        #foo_experience div#svg_wrapper a:nth-child(2){
+            margin-right: -0.4rem;
+        }
+
+        /* ============================================== */
+        /* Footer Contact Section CSS */
+        /* ============================================== */
+
+        #foo_contact{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid; */
+            font-size: 0.87rem;
+        }
+
+        #foo_contact #icon{
+            font-size:1.5rem;
+        }
+
+        #foo_contact #text_container{
+            height: 5rem;
+        }
+
+        #foo_contact #text_container p:nth-child(1){
+            margin-bottom: 1rem;
+        }
+
+        /* ============================================== */
+        /* Footer Menu Section CSS */
+        /* ============================================== */
+
+        #foo_menu{
+            width: 100%;
+            padding: 2.81rem 0 1.87rem 0;
+            display: flex;
+            justify-content: center;
+            background-color:#8C8D94;
+        }
+
+        .foo_menu_container{
+            width: 17%;
+            /* border: 1px solid; */
+            padding: 0.625rem;
+        }
+
+        .foo_menu_container a{
+            text-decoration: none;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .foo_menu_container a:hover{
+            color: #FC2779;
+            transition: all 0.2s ease-in-out;
+        }
+
+        #foo_menu .foo_menu_container:nth-child(1) img{
+            width: 4.5rem;
+        }
+
+        #foo_menu .foo_menu_container ul{
+            list-style: none;
+        }
+
+        #foo_menu .foo_menu_container ul li:first-child{
+            margin-bottom: 1rem;
+            color: white;
+            font-size: 1rem;
+        }
+
+        #foo_menu .foo_menu_container ul li{
+            /* padding: 0.2rem 0; */
+            padding: 0 0 0.4rem 0;
+            font-size: 0.87rem;
+            color: white;
+        }
+
+        /* ============================================== */
+        /* Footer Social Section CSS */
+        /* ============================================== */
+
+        #foo_social{
+            /* border: 1px solid; */
+            padding: 2.5rem 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #foo_social > div{
+            padding: 20px 0 0 10px;
+            margin-top: 9px ;
+        }
+
+        #foo_social #foo_social_prod_icons{
+            display: flex;
+            justify-content:space-between;
+            width: 63%;
+        }
+
+        #foo_social_prod_icons .product_guideline{
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid red; */
+            width: 23%;
+        }
+
+        #foo_social_prod_icons .product_guideline .icon_wrapper{
+            margin-right: 1rem;
+        }
+
+        #foo_social_prod_icons .product_guideline .text_wrapper{
+            padding: 0.4rem 0 0 0;
+        }
+
+        #foo_social_prod_icons .product_guideline .text_wrapper .prod_heading{
+            border-bottom: 1px solid #dadada;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        #foo_social_icons_heading h2{
+            line-height:0.875rem;
+            font-size: 0.875rem;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .prod_heading h3{
+            font-size: 1rem;
+            font-weight: 600;
+            color: #3f3f51;
+        }
+
+        .text_content p{
+            font-size: 0.97rem;
+            line-height: 1.2rem;
+        }
+        #foo_social_icons ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 1rem;
+        }
+
+        /* ============================================== */
+        /* Footer Last Section CSS */
+        /* ============================================== */
+
+        #foo_last{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #FC2779;
+            color: white;
+            margin-bottom:50px;
+            height:80px;
+        }
+
+        #foo_last div:nth-child(1){
+            padding: 1rem 0 1.5rem 0;
+            display: flex;
+            justify-content: space-between;
+           
+            width: 45%;
+        }
+
+        #foo_last div:nth-child(1) a{
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            line-height:0.875rem;
+        }
+
+        #foo_last div:nth-child(2){
+            font-size: 0.75rem;
+            line-height: 1.25rem;
+            padding: 0 0 0.7rem 0;
+            
+        }
+
+ 
