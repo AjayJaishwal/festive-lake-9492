@@ -248,3 +248,7 @@ const slideImage6=()=>{
 
 // calling the function of auto slide 
 startSlide();
+
+function succ() {
+  window.location.href = "signup.html";
+}

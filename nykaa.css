@@ -1,5 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* media-query */
+@media only screen and (max-width: 800px) {
+  #two{
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Small Screen  */
+  .f-nav{
+    display:none;
+  }
+ 
+}
 /* universal css */
 *{
   margin:0%;
