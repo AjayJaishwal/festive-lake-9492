@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #F3F3F3;
+    
+    
+}
+
+.loginParentContainer {
+    display: inline-block;
+    height: 100px;
+}
+
+.loginContainer {
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 50 px;
+    
+}
+
+.proceedbutton {
+    width: 300px;
+    background-color: #FC2779;
+    color: white;
+    margin-bottom: 20px;
+    height: 40px;
+    border-width: 0px;
+}
+
+.emailText {
+    width: 300px;
+    height: 30px;
+}
+
+.crossImage {
+    width: 25px;
+    height: 25px;
+}
+
+.emailContainer {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+}
