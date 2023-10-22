@@ -20,8 +20,11 @@
 }
 body{
 
-  background-image: url('./images/background.png');
+  background-image: url('./background.png');
   margin: 0%;
+  backdrop-filter: blur(5px);
+  background-position: center;
+  background-size: cover;
 }
 #cart{
   display: flex;
