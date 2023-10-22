@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 /* media-query */
 @media only screen and (max-width: 800px) {
-  #two{
+  .nykaa-bar{
     display:none;
   }
 }
 
 @media only screen and (max-width: 500px) {
   /* Small Screen  */
-  .f-nav{
+  .nykaa-bar{
     display:none;
   }
  
@@ -30,6 +30,17 @@
   justify-content: space-around;
   height: 44px;
   font-family: 'Inter', sans-serif !important;
+}
+
+.cart-btn{
+  position:absolute;
+  right:230px;
+  /* border:1px solid black; */
+}
+
+.cart-btn img{
+  width:500px;
+
 }
 
 @keyframes blink{
