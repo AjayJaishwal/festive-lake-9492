@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       '<button id="startshopping">Start Shopping</button>' +
       '</div>';
       startshopping.addEventListener("click", function () {
-        window.location.href = "homepage.html";
+        window.location.href = "index.html";
     });
     bottom.innerHTML = '';
   } else {
