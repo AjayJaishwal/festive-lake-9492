@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   const container = document.getElementById("container");
-  const cartData = JSON.parse(localStorage.getItem("cart")) || [];
+  const cartData = JSON.parse(localStorage.getItem("cart_data")) || [];
   const bottom = document.getElementById("bottom");
   if (cartData.length === 0) {
     // If the cart is empty, display the "Empty Cart" div
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       '<button id="startshopping">Start Shopping</button>' +
       '</div>';
       startshopping.addEventListener("click", function () {
-        window.location.href = "homepage.html";
+        window.location.href = "index.html";
     });
     bottom.innerHTML = '';
   } else {
@@ -42,16 +42,16 @@ document.addEventListener("DOMContentLoaded", function() {
       cartContainerBottom.style.justifyContent = "end";
       cartContainerBottom.style.gap = "10px";
       const productImage = document.createElement("img");
-      productImage.src = product.img;
+      productImage.src = product.image;
 
       const productName = document.createElement("p");
       productName.textContent = product.name;
 
       const originalPrice = document.createElement("p1");
-      originalPrice.textContent = `₹${product.originalPrice}`;
+      originalPrice.textContent = `₹${product.price}`;
 
       const discountedPrice = document.createElement("p");
-      discountedPrice.textContent = `₹${product.discountedPrice}`;
+      discountedPrice.textContent = `₹${product.price}`;
 
       const removeFromCartButton = document.createElement("button");
       removeFromCartButton.innerHTML = '&#x1F5D1;';
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
         cartContainerBottom.removeChild(originalPrice);
         cartContainerBottom.removeChild(discountedPrice);
 
-        bagMRP = cartData.reduce((total, product) => total + product.discountedPrice, 0);
+        bagMRP = cartData.reduce((total, product) => total + product.price, 0);
         bagDiscount = bagMRP * 0.1;
         bagDiscount = bagDiscount.toFixed(0);
         youPay = bagMRP - bagDiscount;
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       cartContainer.appendChild(cartContainerTop);
       cartContainer.appendChild(cartContainerBottom);
-      bagMRP += product.discountedPrice;
+      bagMRP = product.price;
       bagDiscount = bagMRP * 0.1;
       bagDiscount = bagDiscount.toFixed(0);
     });
@@ -119,7 +119,7 @@ function updateTotalCountAndYouPay(cartData) {
   const totalCount = cartData.length;
 
   // Calculate total youPay
-  const totalYouPay = cartData.reduce((total, product) => total +product.discountedPrice-Math.round(product.discountedPrice*0.1) , 0);
+  const totalYouPay = cartData.reduce((total, product) => total +product.price-Math.round(product.Price*0.1) , 0);
   
   // Update local storage
   const totalData = {
@@ -129,3 +129,10 @@ function updateTotalCountAndYouPay(cartData) {
 
   localStorage.setItem('totalData', JSON.stringify(totalData));
 }
+
+function succ() {
+  window.location.href = "./index.html";
+}
+
+
+

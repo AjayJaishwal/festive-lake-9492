@@ -3,7 +3,7 @@ const payButton = document.getElementById("payButton");
 
 payButton.addEventListener("click", function () {
     alert("Product has been placed sucessfully")
-    window.location.href = "homepage.html";
+    window.location.href = "index.html";
 });
 
 

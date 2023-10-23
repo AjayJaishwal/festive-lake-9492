@@ -23,7 +23,7 @@ setInterval(() => {
 
 const nykaaProduct = [
     {
-    image: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/0/a/0a4f3ef8904245711047_1.jpg",
+    image: "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0a4f3ef8904245711047_1.jpg",
     name : "Nykaa So Creme! Creamy Matte Lipstick - Traffic Jammin Jammin  Jammin'",
     price: "244",
     discount: "13% off",

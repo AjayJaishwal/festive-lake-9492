@@ -35,3 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
         registrationForm.reset();
     });
 });
+
+
+  function home() {
+    window.location.href = "../index.html";
+  }

@@ -250,5 +250,9 @@ const slideImage6=()=>{
 startSlide();
 
 function succ() {
-  window.location.href = "signup.html";
+  window.location.href = "./sign_up/signup.html";
+}
+
+function pro() {
+  window.location.href = "products.html";
 }
