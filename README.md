@@ -25,7 +25,3 @@ Local storage
 4.zaheen khan
 5.manisha devanand
 
-# Steps to deploy
-  git clone https://github.com/nagesh199/Nykaa-clone       // Clone This Repo
-  npm install                                              // install required dependencies
-  npm run star
