@@ -1,36 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const registrationForm = document.getElementById("registrationForm");
-
+    const registrationForm = document.getElementById("loginContainer");
+    const otpContainer = document.getElementById("otpContainer");
+    otpContainer.style.display = "none";
+    console.log(registrationForm)
     registrationForm.addEventListener("submit", function (e) {
         e.preventDefault();
-
-        const email = document.getElementById("email").value;
-        const confirmEmail = document.getElementById("confirmEmail").value;
-        const password = document.getElementById("password").value;
-        const confirmPassword = document.getElementById("confirmPassword").value;
-        const fullName = document.getElementById("fullname");
-
-        if (email !== confirmEmail) {
-            alert("Emails do not match!");
-            return;
+        console.log("y0")
+        const contactDetail = document.getElementById("contactDetail").value;
+        const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        const isValidEmail = regex.test(contactDetail);
+        const phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+        const isValidPhone = phoneRegex.test(contactDetail);
+        if (isValidPhone || isValidEmail){
+            const otpContainer = document.getElementById("otpContainer");
+            console.log("y1")
+            otpContainer.style.display = "block";
+        } else {
+            console.log("y2")
         }
-
-        if (password !== confirmPassword) {
-            alert("Passwords do not match!");
-            return;
-        }
-
-        const savedEmail = localStorage.getItem('email');
-        if (email == savedEmail) {
-            alert("Email already registered!");
-            return;
-        }
-
-        //save the values
-        localStorage.setItem('email', email);
-        localStorage.setItem('password', password);
-        localStorage.setItem('fullName', fullName);
-
         // Reset the form
         registrationForm.reset();
     });

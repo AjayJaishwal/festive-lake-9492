@@ -5,22 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./signup.css">
+    <script src="./signup.js"></script>
     <title>Registration Form</title>
 </head>
 
 <body class="background">
     <div class="loginParentContainer">
-        <img class="crossImage" src="cross.png"/>
-        <div class="loginContainer">
+        <img class="crossImage" src="cross.png" />
+        <form class="loginContainer" id="loginContainer" type="form">
 
             <h3>Login/Register</h3>
             <div class="emailContainer">
-                <input class="emailText" type="text"  style="border: 1px solid red" placeholder="Enter email id or phone number">
+                <input class="emailText" id="contactDetail" type="text" style="border: 1px solid red"
+                    placeholder="Enter email id or phone number">
                 <p>Required</p>
             </div>
-            <button class="proceedbutton">PROCEED</button>
-
-        </div>
+            <div id="otpContainer">
+                <p class="welcomeBacktext">Welcome back zaheen,
+                    Please enter the OTP sent on your phone
+                    (Be sure to check your spam folder)</p>
+                <input class="emailText" type="text" style="border: 1px solid red" placeholder="OTP" />
+            </div>
+            <button class="proceedbutton" type="submit">PROCEED</button>
+        </form>
     </div>
 
 

@@ -40,6 +40,7 @@ body {
 .emailText {
     width: 300px;
     height: 30px;
+    margin-bottom: 10px;
 }
 
 .crossImage {
@@ -48,9 +49,14 @@ body {
 }
 
 .emailContainer {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     display: flex;
     align-items: right;
     justify-content: right;
     flex-direction: column;
+}
+
+.welcomeBacktext{
+    margin-left: 20px;
+    margin-right: 20px;
 }
