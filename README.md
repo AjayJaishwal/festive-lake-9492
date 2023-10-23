@@ -26,6 +26,6 @@ Local storage
 5.manisha devanand
 
 # Steps to deploy
-  git clone https://github.com/nagesh199/Nykaa-clone       // Clone This Repo
+  git clone[ https://github.com/nagesh199/Nykaa-clone](https://github.com/AjayJaishwal/festive-lake-9492.git)       // Clone This Repo
   npm install                                              // install required dependencies
   npm run star
