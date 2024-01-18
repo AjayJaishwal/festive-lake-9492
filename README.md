@@ -2,7 +2,7 @@
 It is a Indian e-commerce website.It sells beauty, wellness and fashion products and you can also find best make-up brands,products of skin care and appliances also.
 
 # Nykaa-clone
-https://6535f5a834f656678606da1d--gleeful-elf-885b11.netlify.app/
+https://fancy-tiramisu-2a1d9e.netlify.app/
 
 
 # Technologies used :-
